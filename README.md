@@ -1,7 +1,7 @@
 <br> 1.	Write a program to find the distance between two points
 		<br> void input(float \*x1, float \*y1, float \*x2, float \*y2);
-		<br> void find_distance(float x1, float y1, float x2, float y2, float *area);
-		<br> void output(float x1, float y1,float x2, float y2, float area);
+		<br> void find_distance(float x1, float y1, float x2, float y2, float *distance);
+		<br> void output(float x1, float y1,float x2, float y2, float distance);
 		<br> input:
 		<br> 1 1 2 2
 		<br> output:
@@ -41,7 +41,7 @@
 	
 <br> 6.	Write a program to find the index of a substring of a string.
 	<br> void input_string(char *a);
-	<br> int str_reverse(char \*string, char \*substring);
+	<br> int str_index(char \*string, char \*substring);
 	<br> void output(char \*string, char \*substring, int index);
 	<br> input:
 	<br> helloworldhello
