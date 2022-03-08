@@ -79,12 +79,12 @@
 	<br> struct _polygon {
         <br>   int n;
 	<br>   Line l[100];
-	<br>   float perimenter;
+	<br>   float perimeter;
 	<br> }
 	<br> int input_n();
-	<br> int input_polygon( int n, Polygon \*p);
 	<br> Line input_line();
-	<br> void input_n_lines(int n, Line l[n]);
+	<br> void find_distance(Line \*l);
+	<br> input_polygon( int n, Polygon \*p);
 	<br> void find_perimeter(Polygon \*p);
 	<br> void output(Polygon p);
 
